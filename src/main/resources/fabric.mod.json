@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "${version}",
+  "name": "FPS Boost",
+  "description": "Improve your Minecraft FPS with entity culling, particle limiting, fog optimizations and smart chunk loading.",
+  "authors": ["aydenjacksv-stack"],
+  "contact": {
+    "sources": "https://github.com/aydenjacksv-stack/mod_minecraft"
+  },
+  "license": "MIT",
+  "icon": "assets/fpsboost/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.fpsboost.FpsBoostMod"]
+  },
+  "mixins": ["fpsboost.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
