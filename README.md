@@ -42,3 +42,10 @@ After first launch, edit `.minecraft/config/fpsboost.json`:
   "maxChunkUpdatesPerTick": 3
 }
 ```
+
+## Contributors
+
+| Contributor | Role |
+|---|---|
+| [aydenjacksv-stack](https://github.com/aydenjacksv-stack) | Project owner |
+| [Claude](https://claude.ai) (Anthropic) | Architecture, code & CI/CD |
